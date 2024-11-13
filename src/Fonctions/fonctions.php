@@ -35,3 +35,4 @@ function GenereMDP($nbChar) :string{
 
         return (int)round($entropie);
     }
+
