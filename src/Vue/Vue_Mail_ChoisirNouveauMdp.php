@@ -1,5 +1,7 @@
 <?php
 namespace App\Vue;
+use App\Utilitaire\Vue_Composant;
+
 class Vue_Mail_ChoisirNouveauMdp  extends Vue_Composant
 {
     private string $token;
@@ -18,7 +20,7 @@ class Vue_Mail_ChoisirNouveauMdp  extends Vue_Composant
                 <input type='password' placeholder='nouveau mdp' name='mdp1' required>
                 <input type='password' placeholder='confirme nouveau mdp' name='mdp2' required>
                 
-                <button type='submit' id='submit' name='action' value='choixmdp'>
+                <button type='submit' id='submit' name='action' value='reinitmdpconfirmtoken'>
                       Confirmer le mdp
                 </button>
             </form>

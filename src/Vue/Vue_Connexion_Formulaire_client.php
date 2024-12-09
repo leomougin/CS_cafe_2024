@@ -44,10 +44,22 @@ class Vue_Connexion_Formulaire_client extends Vue_Composant
 <button type='submit' id='submit' name='action' value='reinitmdp'> 
     Réinitialiser le mdp
 </button>
-";
-
-        $str .= "
 </form>
+";
+        $str .= "  
+  <form action='index.php' method='post' style='      display: block;    margin: auto;'>
+             
+                <h1>Mot de passe oublié</h1>
+                
+                <label><b>Mail</b></label>
+                <input type='email' placeholder='mail du compte ' name='email' required>
+                
+                <button type='submit' id='submit' name='action' 
+                            value='reinitmdptoken'>
+                            Renouveler mdp avec token
+                </button>";
+        $str .= "
+ </form>
 </div>
     ";
 

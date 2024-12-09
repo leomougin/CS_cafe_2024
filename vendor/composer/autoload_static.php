@@ -20,6 +20,7 @@ class ComposerStaticInitbc685377cbb7caf1e10a1d0af38d3f7c
         'P' => 
         array (
             'PhpParser\\' => 10,
+            'PHPMailer\\PHPMailer\\' => 20,
         ),
         'D' => 
         array (
@@ -39,6 +40,10 @@ class ComposerStaticInitbc685377cbb7caf1e10a1d0af38d3f7c
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
         'DeepCopy\\' => 
         array (
